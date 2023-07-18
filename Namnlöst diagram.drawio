@@ -1,9 +1,306 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T11:20:30.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.2" etag="CWQYXLmGZzj035LoPEbB" type="github">
-  <diagram name="Sida-1" id="w8fblDQWMLpdq_WswgFl">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-07-18T12:19:37.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NspMrIZtFbAJ0DM3eyMP" version="21.6.2" type="github" pages="2">
+  <diagram name="Current script layout" id="w8fblDQWMLpdq_WswgFl">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HVgj9gojwZ5SIt174sku-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-1" target="HVgj9gojwZ5SIt174sku-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-1" target="HVgj9gojwZ5SIt174sku-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-1" target="HVgj9gojwZ5SIt174sku-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-1" value="Create_train_test_external_test_set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-3" value="Training Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-4" value="External test data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-5" target="HVgj9gojwZ5SIt174sku-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-5" value="CatBoost Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-6" target="HVgj9gojwZ5SIt174sku-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-6" value="Create_train_test (multifold)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-7" target="HVgj9gojwZ5SIt174sku-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-7" value="Training CatBoost Model in for loop for all five splits" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-8" target="HVgj9gojwZ5SIt174sku-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-8" value="Train and Test metrics of all folds wrt CatBoost Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="585" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-9" value="Calculation of average meteric accross splits&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-10" target="HVgj9gojwZ5SIt174sku-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="830" />
+              <mxPoint x="380" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-10" target="HVgj9gojwZ5SIt174sku-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="830" />
+              <mxPoint x="380" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-10" value="Fits catBoost Model for all training data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="800" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-11" value="Model export" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-14" value="RUL estimate exports" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="840" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-16" target="HVgj9gojwZ5SIt174sku-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-16" value="Calculation of meterics on external test datasets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="910" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-18" value="SUmmary outcomes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="925" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-20" target="HVgj9gojwZ5SIt174sku-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-20" value="Printing outcomes into text file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1000" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-21" value="Result file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1015" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVgj9gojwZ5SIt174sku-23" target="HVgj9gojwZ5SIt174sku-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-23" value="True vs Predicted scatter plot with line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1090" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-24" value="Scatter Plot file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1105" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-26" value="5 fold training data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="235" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-31" value="Model Object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="355" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-33" value="Trained Models" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="485" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVgj9gojwZ5SIt174sku-35" value="Metrics table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="600" width="86" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6QOnRLEyi7d9HmtVisO4" name="Modularized script">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ldt5Hca-H8TZtfWs5ZdV-1" value="Class: Data Preparation&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="40" width="409" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mlYb7ldJD5u8sEHvojcC-1" target="bW7xuaxRRLmKzT0299dP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mlYb7ldJD5u8sEHvojcC-1" target="bW7xuaxRRLmKzT0299dP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYb7ldJD5u8sEHvojcC-1" value="Create_train_test_external_test_set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="78" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mlYb7ldJD5u8sEHvojcC-2" target="bW7xuaxRRLmKzT0299dP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYb7ldJD5u8sEHvojcC-2" value="Create_train_test (multifold)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="168" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tAQZ9Ygy1EmFToXb1OyC-2" value="Class: Model Development&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="282" width="409" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xW7YeHcI0mRtF8cYV_ZZ-1" target="bW7xuaxRRLmKzT0299dP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xW7YeHcI0mRtF8cYV_ZZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW7YeHcI0mRtF8cYV_ZZ-1" value="Training CatBoost Model in for loop for all five splits" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="327" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xW7YeHcI0mRtF8cYV_ZZ-2" value="Fits catBoost Model for all training data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="416" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xW7YeHcI0mRtF8cYV_ZZ-3" value="Class: Model Evaluation&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="520" width="409" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="13EVnPUgCUHwJHaCyWpT-1" value="Train and Test metrics of all folds wrt CatBoost Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="580" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13EVnPUgCUHwJHaCyWpT-2" value="Calculation of average meteric accross splits&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="650" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13EVnPUgCUHwJHaCyWpT-3" value="Calculation of meterics on external test datasets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="720" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13EVnPUgCUHwJHaCyWpT-4" value="Class: Result Export&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrFiFHNOIM4IsC9JF1Z-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RhrFiFHNOIM4IsC9JF1Z-2" target="RhrFiFHNOIM4IsC9JF1Z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrFiFHNOIM4IsC9JF1Z-2" value="Printing outcomes into text file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="920" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrFiFHNOIM4IsC9JF1Z-3" value="Result file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="935" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrFiFHNOIM4IsC9JF1Z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RhrFiFHNOIM4IsC9JF1Z-5" target="RhrFiFHNOIM4IsC9JF1Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrFiFHNOIM4IsC9JF1Z-5" value="True vs Predicted scatter plot with line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="1010" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrFiFHNOIM4IsC9JF1Z-6" value="Scatter Plot file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1025" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gVjcinZu4b63AGTXHA6b-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="gVjcinZu4b63AGTXHA6b-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="446" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="316" y="446" />
+              <mxPoint x="316" y="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gVjcinZu4b63AGTXHA6b-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="gVjcinZu4b63AGTXHA6b-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="446" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="316" y="446" />
+              <mxPoint x="316" y="471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gVjcinZu4b63AGTXHA6b-3" value="Model export" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="406" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gVjcinZu4b63AGTXHA6b-4" target="RhrFiFHNOIM4IsC9JF1Z-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="471" />
+              <mxPoint x="490" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gVjcinZu4b63AGTXHA6b-4" target="RhrFiFHNOIM4IsC9JF1Z-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="471" />
+              <mxPoint x="550" y="1025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gVjcinZu4b63AGTXHA6b-4" target="13EVnPUgCUHwJHaCyWpT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="471" />
+              <mxPoint x="460" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gVjcinZu4b63AGTXHA6b-4" value="RUL estimate exports" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="456" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uUUm8ydA7UJqKXbWKcd6-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="uUUm8ydA7UJqKXbWKcd6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUUm8ydA7UJqKXbWKcd6-2" target="13EVnPUgCUHwJHaCyWpT-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uUUm8ydA7UJqKXbWKcd6-2" value="Metrics table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307" y="595" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8bNDl-2Fh3mXHxNtmfM-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="r8bNDl-2Fh3mXHxNtmfM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8bNDl-2Fh3mXHxNtmfM-2" value="Summary outcomes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="735" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bW7xuaxRRLmKzT0299dP-1" target="mlYb7ldJD5u8sEHvojcC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="93" />
+              <mxPoint x="425" y="150" />
+              <mxPoint x="171" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-1" value="Training Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="78" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-2" value="External test data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bW7xuaxRRLmKzT0299dP-3" target="xW7YeHcI0mRtF8cYV_ZZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="260" />
+              <mxPoint x="140" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-3" value="5 fold training data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332" y="183" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-9" value="Model export" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.318;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bW7xuaxRRLmKzT0299dP-10" target="13EVnPUgCUHwJHaCyWpT-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="382" />
+              <mxPoint x="500" y="510" />
+              <mxPoint x="136" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bW7xuaxRRLmKzT0299dP-10" value="RUL estimate exports" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="367" width="76" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
